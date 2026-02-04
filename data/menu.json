@@ -1,0 +1,313 @@
+{
+  "restaurant": "5Spice - Mira Road",
+  "currency": "INR",
+  "contact": {
+    "phone": "+919867378209",
+    "whatsapp": "+919867378209",
+    "directionsUrl": "https://share.google/BNks05vJjLSzFKhOe"
+  },
+  "tax": {
+    "gstPercent": 5,
+    "applyAfterDiscount": true
+  },
+  "discounts": {
+    "deliveryOnly": true,
+    "deliverySlabs": [
+      { "minSubtotal": 10000, "percent": 30 },
+      { "minSubtotal": 0, "percent": 20 }
+    ],
+    "offerItemsNoExtraDeliveryDiscount": true,
+    "notCombinableWithOtherDiscounts": true
+  },
+  "todayOffer": {
+    "enabled": true,
+    "title": "Today’s Offer (Delivery Only)",
+    "items": [
+      {
+        "id": 9001,
+        "name": "Crispy Honey Chilli Potato",
+        "desc": "Perfectly crispy fried potato sticks glazed in a sweet honey–chilli sauce and sesame seeds.",
+        "veg": true,
+        "image": "images/veg-starters/honey-chilli-potato.jpg",
+        "originalPrice": 345,
+        "offerPrice": 209
+      },
+      {
+        "id": 9002,
+        "name": "Chicken Lollipop",
+        "desc": "Classic crispy chicken wings — bone-in, neatly cut at the bone and fried to perfection.",
+        "veg": false,
+        "image": "images/chicken-starters/chicken-lollipop.jpg",
+        "originalPrice": 385,
+        "offerPrice": 239
+      }
+    ]
+  },
+  "categories": [
+    {
+      "title": "🥣 VEG SOUPS",
+      "items": [
+        { "id": 1001, "name": "Veg Five Spice Soup", "desc": "Aromatic soup flavoured with oriental five-spice and fresh vegetables.", "price": 170, "veg": true, "image": "images/soups/veg-five-spice.jpg", "available": true },
+        { "id": 1002, "name": "Veg Coriander Soup", "desc": "Light vegetable broth enhanced with the freshness of coriander.", "price": 170, "veg": true, "image": "images/soups/veg-coriander.jpg", "available": true },
+        { "id": 1003, "name": "Veg Hot and Sour Soup", "desc": "A tangy and spicy vegetable soup with bold flavours.", "price": 170, "veg": true, "image": "images/soups/veg-hot-sour.jpg", "available": true },
+        { "id": 1004, "name": "Veg Manchow Soup", "desc": "Zesty soup with garlic, ginger, and crispy noodles on top.", "price": 170, "veg": true, "image": "images/soups/veg-manchow.jpg", "available": true },
+        { "id": 1005, "name": "Veg Peking Soup", "desc": "Classic Chinese-style soup with vegetables and mild spices.", "price": 170, "veg": true, "image": "images/soups/veg-peking.jpg", "available": true },
+        { "id": 1006, "name": "Veg Sweet Corn Soup", "desc": "Creamy corn soup blended with fresh vegetables.", "price": 170, "veg": true, "image": "images/soups/veg-sweet-corn.jpg", "available": true },
+        { "id": 1007, "name": "Veg Tom Kha Soup", "desc": "Thai-style coconut milk soup with herbs and vegetables.", "price": 170, "veg": true, "image": "images/soups/veg-tom-kha.jpg", "available": true },
+        { "id": 1008, "name": "Veg Tom Yum Soup", "desc": "Authentic Thai spicy-sour soup with herbs and chillies.", "price": 170, "veg": true, "image": "images/soups/veg-tom-yum.jpg", "available": true },
+        { "id": 1009, "name": "Veg Burnt Garlic Soup", "desc": "Rich vegetable broth infused with smoky burnt garlic.", "price": 170, "veg": true, "image": "images/soups/veg-burnt-garlic.jpg", "available": true },
+        { "id": 1010, "name": "Veg Talumien Soup", "desc": "Nourishing noodle soup with vegetables in light oriental broth.", "price": 170, "veg": true, "image": "images/soups/veg-talumien.jpg", "available": true }
+      ]
+    },
+    {
+      "title": "🍲 CHICKEN SOUPS",
+      "items": [
+        { "id": 1101, "name": "Chicken 5 Spice Soup", "desc": "Aromatic chicken soup infused with oriental five-spice flavours.", "price": 180, "veg": false, "image": "images/soups/chicken-five-spice.jpg", "available": true },
+        { "id": 1102, "name": "Chicken Coriander Soup", "desc": "Light chicken broth with the freshness of coriander.", "price": 180, "veg": false, "image": "images/soups/chicken-coriander.jpg", "available": true },
+        { "id": 1103, "name": "Chicken Hot and Sour Soup", "desc": "Tangy and spicy chicken soup with bold oriental seasoning.", "price": 180, "veg": false, "image": "images/soups/chicken-hot-sour.jpg", "available": true },
+        { "id": 1104, "name": "Chicken Manchow Soup", "desc": "Zesty chicken soup with garlic, ginger, and crispy noodles.", "price": 180, "veg": false, "image": "images/soups/chicken-manchow.jpg", "available": true },
+        { "id": 1105, "name": "Chicken Peking Soup", "desc": "Classic Chinese-style chicken soup with mild spices and vegetables.", "price": 180, "veg": false, "image": "images/soups/chicken-peking.jpg", "available": true },
+        { "id": 1106, "name": "Chicken Sweet Corn Soup", "desc": "Creamy corn soup with tender chicken pieces.", "price": 180, "veg": false, "image": "images/soups/chicken-sweet-corn.jpg", "available": true },
+        { "id": 1107, "name": "Chicken Tom Yum Soup", "desc": "Authentic Thai spicy-sour broth with chicken and herbs.", "price": 180, "veg": false, "image": "images/soups/chicken-tom-yum.jpg", "available": true },
+        { "id": 1108, "name": "Chicken Burnt Garlic Soup", "desc": "Flavourful chicken soup with the smoky richness of burnt garlic.", "price": 180, "veg": false, "image": "images/soups/chicken-burnt-garlic.jpg", "available": true },
+        { "id": 1109, "name": "Chicken Talumien Soup", "desc": "Wholesome noodle soup with chicken in a light oriental broth.", "price": 180, "veg": false, "image": "images/soups/chicken-talumien.jpg", "available": true }
+      ]
+    },
+    {
+      "title": "🍜 VEG NOODLES",
+      "items": [
+        { "id": 2001, "name": "Veg 5 Spice Noodles", "desc": "Signature house-style noodles loaded with mixed vegetables and bold seasoning.", "price": 410, "veg": true, "image": "images/noodles/veg-5-spice.jpg", "available": true },
+        { "id": 2002, "name": "Veg American Chopsuey", "desc": "Crispy fried noodles topped with a rich vegetable gravy in sweet-sour style.", "price": 590, "veg": true, "image": "images/noodles/veg-american-chopsuey.jpg", "available": true },
+        { "id": 2003, "name": "Veg Chilly Garlic Noodles", "desc": "Fiery noodles with the punch of chilli and roasted garlic.", "price": 410, "veg": true, "image": "images/noodles/veg-chilly-garlic.jpg", "available": true },
+        { "id": 2004, "name": "Veg Hakka Noodles", "desc": "Classic wok-fried noodles with fresh garden vegetables.", "price": 355, "veg": true, "image": "images/noodles/veg-hakka.jpg", "available": true },
+        { "id": 2005, "name": "Veg Hunan Pan Fried Noodles", "desc": "Golden pan-fried noodles topped with vegetables in a spicy Hunan sauce.", "price": 590, "veg": true, "image": "images/noodles/veg-hunan-pan-fried.jpg", "available": true },
+        { "id": 2006, "name": "Veg Malaysian Noodles", "desc": "Noodles stir-fried with colourful veggies and fragrant Malaysian spices.", "price": 410, "veg": true, "image": "images/noodles/veg-malaysian.jpg", "available": true },
+        { "id": 2007, "name": "Veg Schezwan Noodles", "desc": "Spicy and bold noodles tossed with Schezwan chilli paste.", "price": 380, "veg": true, "image": "images/noodles/veg-schezwan.jpg", "available": true },
+        { "id": 2008, "name": "Veg Singaporean Noodles", "desc": "Noodles with crisp vegetables and curry-flavoured Singaporean seasoning.", "price": 410, "veg": true, "image": "images/noodles/veg-singaporean.jpg", "available": true },
+        { "id": 2009, "name": "Veg Teriyaki Noodles", "desc": "Glazed with sweet-savory teriyaki sauce and stir-fried vegetables.", "price": 489, "veg": true, "image": "images/noodles/veg-teriyaki.jpg", "available": true },
+        { "id": 2010, "name": "Veg Thai Pot Noodles", "desc": "Rich noodles infused with Thai herbs and coconut notes.", "price": 590, "veg": true, "image": "images/noodles/veg-thai-pot.jpg", "available": true },
+        { "id": 2011, "name": "Veg Chowmein", "desc": "Traditional chowmein noodles tossed with crunchy vegetables.", "price": 590, "veg": true, "image": "images/noodles/veg-chowmein.jpg", "available": true },
+        { "id": 2012, "name": "Veg Pepper Noodles", "desc": "Stir-fried noodles seasoned with cracked black pepper and vegetables.", "price": 590, "veg": true, "image": "images/noodles/veg-pepper.jpg", "available": true }
+      ]
+    },
+    {
+      "title": "🍜 CHICKEN NOODLES",
+      "items": [
+        { "id": 2101, "name": "Chicken 5 Spice Noodles", "desc": "Signature house noodles wok-tossed with tender chicken and bold spices.", "price": 420, "veg": false, "image": "images/noodles/chicken-5-spice.jpg", "available": true },
+        { "id": 2102, "name": "Chicken American Chopsuey", "desc": "Crispy noodles topped with a rich chicken gravy in sweet-sour flavours.", "price": 550, "veg": false, "image": "images/noodles/chicken-american-chopsuey.jpg", "available": true },
+        { "id": 2103, "name": "Chicken Chilly Garlic Noodles", "desc": "Fiery noodles with juicy chicken, garlic, and a hint of red chilli.", "price": 420, "veg": false, "image": "images/noodles/chicken-chilly-garlic.jpg", "available": true },
+        { "id": 2104, "name": "Chicken Hakka Noodles", "desc": "A timeless classic — wok-fried noodles with chicken and crisp vegetables.", "price": 380, "veg": false, "image": "images/noodles/chicken-hakka.jpg", "available": true },
+        { "id": 2105, "name": "Chicken Hunan Pan Fried Noodles", "desc": "Golden fried noodles topped with chicken in spicy Hunan sauce.", "price": 550, "veg": false, "image": "images/noodles/chicken-hunan-pan-fried.jpg", "available": true },
+        { "id": 2106, "name": "Chicken Korean Noodles", "desc": "Noodles with chicken, sesame, and Korean-style spice notes.", "price": 420, "veg": false, "image": "images/noodles/chicken-korean.jpg", "available": true },
+        { "id": 2107, "name": "Chicken Malaysian Noodles", "desc": "Wok-tossed noodles with chicken and fragrant Malaysian seasoning.", "price": 410, "veg": false, "image": "images/noodles/chicken-malaysian.jpg", "available": true },
+        { "id": 2108, "name": "Chicken Pepper Noodles", "desc": "Stir-fried noodles with chicken, tossed in cracked black pepper.", "price": 550, "veg": false, "image": "images/noodles/chicken-pepper.jpg", "available": true },
+        { "id": 2109, "name": "Chicken Schezwan Noodles", "desc": "Bold and spicy noodles with chicken, garlic, and Schezwan chilli.", "price": 395, "veg": false, "image": "images/noodles/chicken-schezwan.jpg", "available": true },
+        { "id": 2110, "name": "Chicken Singaporean Noodles", "desc": "Chicken noodles with curry-spiced Singaporean flavour.", "price": 420, "veg": false, "image": "images/noodles/chicken-singaporean.jpg", "available": true },
+        { "id": 2111, "name": "Chicken Teriyaki Noodles", "desc": "Juicy chicken glazed with sweet-savory teriyaki, served with noodles.", "price": 550, "veg": false, "image": "images/noodles/chicken-teriyaki.jpg", "available": true },
+        { "id": 2112, "name": "Chicken Thai Pot Noodles", "desc": "Exotic noodles with chicken, simmered in Thai herbs and coconut.", "price": 550, "veg": false, "image": "images/noodles/chicken-thai-pot.jpg", "available": true },
+        { "id": 2113, "name": "Chicken Black Pepper Noodles", "desc": "Noodles wok-fried with chicken and a sharp peppery kick.", "price": 550, "veg": false, "image": "images/noodles/chicken-black-pepper.jpg", "available": true },
+        { "id": 2114, "name": "Chicken Pan Fried Noodles", "desc": "Crispy pan-fried noodles topped with savoury chicken gravy.", "price": 550, "veg": false, "image": "images/noodles/chicken-pan-fried.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🥦 VEG STARTERS",
+      "items": [
+        { "id": 3001, "name": "Babycorn Chilly Dry", "desc": "Crisp babycorn tossed with onions, peppers, and spicy chilli sauce.", "price": 375, "veg": true, "image": "images/veg-starters/babycorn-chilly-dry.jpg", "available": true },
+        { "id": 3002, "name": "Chilly Crispy Potatoes", "desc": "Golden fried potato fingers with a hot and tangy chilli flavour.", "price": 345, "veg": true, "image": "images/veg-starters/chilly-crispy-potatoes.jpg", "available": true },
+        { "id": 3003, "name": "Crispy Chilly Babycorn With Water Chestnuts", "desc": "A crunchy mix of babycorn and water chestnuts in a spicy sauce.", "price": 345, "veg": true, "image": "images/veg-starters/babycorn-waterchestnut.jpg", "available": true },
+        { "id": 3004, "name": "Crispy Corn Water Chestnuts", "desc": "Sweet corn and water chestnuts stir-fried for a crisp, savoury bite.", "price": 345, "veg": true, "image": "images/veg-starters/corn-waterchestnut.jpg", "available": true },
+        { "id": 3005, "name": "Crispy Spinach Babycorn", "desc": "Babycorn paired with crunchy spinach leaves for a unique twist.", "price": 345, "veg": true, "image": "images/veg-starters/spinach-babycorn.jpg", "available": true },
+        { "id": 3006, "name": "Crispy Vegetables", "desc": "Assorted vegetables deep-fried to golden perfection.", "price": 345, "veg": true, "image": "images/veg-starters/crispy-vegetables.jpg", "available": true },
+        { "id": 3007, "name": "Hakka Button Mushroom", "desc": "Tender mushrooms tossed in Hakka-style seasoning.", "price": 345, "veg": true, "image": "images/veg-starters/hakka-button-mushroom.jpg", "available": true },
+        { "id": 3008, "name": "Mushroom Chilly Dry", "desc": "Mushrooms wok-tossed with garlic, onions, and chillies.", "price": 375, "veg": true, "image": "images/veg-starters/mushroom-chilly-dry.jpg", "available": true },
+        { "id": 3009, "name": "Potato Kung Pao Dry", "desc": "Crispy potatoes with peanuts, peppers, and Kung Pao sauce.", "price": 345, "veg": true, "image": "images/veg-starters/potato-kungpao.jpg", "available": true },
+        { "id": 3010, "name": "Stir Fried Exotic Veg", "desc": "A medley of colourful exotic vegetables tossed in the wok.", "price": 345, "veg": true, "image": "images/veg-starters/stir-fried-exotic-veg.jpg", "available": true },
+        { "id": 3011, "name": "Teriyaki Potatoes", "desc": "Crispy potatoes glazed with sweet-savory teriyaki sauce.", "price": 345, "veg": true, "image": "images/veg-starters/teriyaki-potatoes.jpg", "available": true },
+        { "id": 3012, "name": "Veg Manchurian Dry", "desc": "Golden veg balls tossed in a zesty Manchurian sauce.", "price": 345, "veg": true, "image": "images/veg-starters/veg-manchurian-dry.jpg", "available": true },
+        { "id": 3013, "name": "Veg Spring Roll", "desc": "Crispy rolls filled with seasoned vegetables.", "price": 325, "veg": true, "image": "images/veg-starters/veg-spring-roll.jpg", "available": true },
+        { "id": 3014, "name": "Babycorn Red Chilly Pepper Dry", "desc": "Babycorn stir-fried with red chillies and pepper for a fiery kick.", "price": 345, "veg": true, "image": "images/veg-starters/babycorn-red-chilly-pepper.jpg", "available": true },
+        { "id": 3015, "name": "Babycorn Red Hot Dry", "desc": "Crisp babycorn tossed in a hot and spicy sauce.", "price": 375, "veg": true, "image": "images/veg-starters/babycorn-red-hot.jpg", "available": true },
+        { "id": 3016, "name": "Mushroom Red Hot Dry", "desc": "Tender mushrooms wok-tossed in a fiery red sauce.", "price": 375, "veg": true, "image": "images/veg-starters/mushroom-red-hot.jpg", "available": true },
+        { "id": 3017, "name": "Sizzling Vegetables", "desc": "Mixed vegetables served hot on a sizzling platter with bold spices.", "price": 345, "veg": true, "image": "images/veg-starters/sizzling-vegetables.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🧀 PANEER STARTERS",
+      "items": [
+        { "id": 3201, "name": "Crispy Spinach Paneer", "desc": "Paneer cubes paired with crunchy fried spinach for a delightful bite.", "price": 375, "veg": true, "image": "images/paneer-starters/crispy-spinach-paneer.jpg", "available": true },
+        { "id": 3202, "name": "Paneer Babycorn Mushroom Fu-chi Dry", "desc": "A mix of paneer, babycorn, and mushrooms tossed in oriental spices.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-babycorn-mushroom.jpg", "available": true },
+        { "id": 3203, "name": "Paneer Chilly Dry", "desc": "Paneer cubes wok-tossed with onions, garlic, and spicy chillies.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-chilly-dry.jpg", "available": true },
+        { "id": 3204, "name": "Paneer Kung Pao Dry", "desc": "Paneer cooked with peanuts, peppers, and a touch of Kung Pao sauce.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-kungpao.jpg", "available": true },
+        { "id": 3205, "name": "Paneer Red Hot Dry", "desc": "Crispy paneer tossed in a fiery red chilli sauce.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-red-hot.jpg", "available": true },
+        { "id": 3206, "name": "Paneer Thread Fry", "desc": "Paneer shredded and fried into crunchy golden threads.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-thread-fry.jpg", "available": true },
+        { "id": 3207, "name": "Black Pepper Paneer", "desc": "Paneer cubes tossed in a sharp and peppery sauce.", "price": 375, "veg": true, "image": "images/paneer-starters/black-pepper-paneer.jpg", "available": true },
+        { "id": 3208, "name": "Paneer Barbeque Dry", "desc": "Smoky barbeque-style paneer with a sweet and tangy glaze.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-barbeque.jpg", "available": true },
+        { "id": 3209, "name": "Paneer Red Chilly Pepper Dry", "desc": "Paneer stir-fried with red chillies and crushed pepper.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-red-chilly-pepper.jpg", "available": true },
+        { "id": 3210, "name": "Paneer Red Pepper Dry", "desc": "Paneer tossed with red bell peppers and oriental spices.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-red-pepper.jpg", "available": true },
+        { "id": 3211, "name": "Paneer Soya Chilly Dry", "desc": "Paneer cooked with soy sauce, garlic, and green chillies.", "price": 375, "veg": true, "image": "images/paneer-starters/paneer-soya-chilly.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🍗 CHICKEN STARTERS",
+      "items": [
+        { "id": 3401, "name": "Apple Chicken", "desc": "Tender chicken tossed with a sweet and tangy apple glaze.", "price": 415, "veg": false, "image": "images/chicken-starters/apple-chicken.jpg", "available": true },
+        { "id": 3402, "name": "Burnt Chicken Dry", "desc": "Smoky, wok-seared chicken with bold spices and charred flavour.", "price": 385, "veg": false, "image": "images/chicken-starters/burnt-chicken-dry.jpg", "available": true },
+        { "id": 3403, "name": "Chicken Black Pepper Dry", "desc": "Juicy chicken cooked in a sharp black pepper sauce.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-black-pepper-dry.jpg", "available": true },
+        { "id": 3404, "name": "Chicken Chilly Dry", "desc": "Crispy chicken tossed with onions, chillies, and garlic.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-chilly-dry.jpg", "available": true },
+        { "id": 3405, "name": "Chicken Crispy", "desc": "Golden fried chicken bites with a crunchy coating and spicy seasoning.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-crispy.jpg", "available": true },
+        { "id": 3406, "name": "Chicken Kung Pao Dry", "desc": "Classic oriental chicken with roasted peanuts, chillies, and peppers.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-kungpao.jpg", "available": true },
+        { "id": 3407, "name": "Chicken Lollipop (8 Pieces)", "desc": "Crispy, juicy chicken lollipops served with spicy Schezwan dip.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-lollipop-8.jpg", "available": true },
+        { "id": 3408, "name": "Chicken Mongolian Dry", "desc": "Chicken stir-fried with Mongolian-style spices and vegetables.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-mongolian-dry.jpg", "available": true },
+        { "id": 3409, "name": "Chicken Red Hot Dry", "desc": "Crispy chicken tossed in a fiery red chilli sauce.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-red-hot-dry.jpg", "available": true },
+        { "id": 3410, "name": "Chicken Red Pepper Dry", "desc": "Chicken stir-fried with red peppers and a touch of spice.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-red-pepper-dry.jpg", "available": true },
+        { "id": 3411, "name": "Chicken Spring Roll", "desc": "Crispy rolls stuffed with chicken and vegetables.", "price": 325, "veg": false, "image": "images/chicken-starters/chicken-spring-roll.jpg", "available": true },
+        { "id": 3412, "name": "Chicken Teriyaki Dry", "desc": "Tender chicken glazed with sweet-savory teriyaki sauce.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-teriyaki-dry.jpg", "available": true },
+        { "id": 3413, "name": "Chicken Thread Fry", "desc": "Shredded chicken deep-fried into crispy golden threads.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-thread-fry.jpg", "available": true },
+        { "id": 3414, "name": "Crispy Hunan Chicken", "desc": "Crispy chicken tossed in a spicy Hunan-style sauce.", "price": 385, "veg": false, "image": "images/chicken-starters/crispy-hunan-chicken.jpg", "available": true },
+        { "id": 3415, "name": "Crispy Spinach Chicken", "desc": "Juicy chicken paired with crunchy fried spinach leaves.", "price": 385, "veg": false, "image": "images/chicken-starters/spinach-chicken.jpg", "available": true },
+        { "id": 3416, "name": "Dragon Chicken Dry", "desc": "Crispy chicken tossed in a hot chilli sauce with a dragon-style kick.", "price": 385, "veg": false, "image": "images/chicken-starters/dragon-chicken-dry.jpg", "available": true },
+        { "id": 3417, "name": "Two Flavoured Chicken Dry", "desc": "A mix of two unique flavours in one plate of crispy chicken.", "price": 385, "veg": false, "image": "images/chicken-starters/two-flavoured-chicken.jpg", "available": true },
+        { "id": 3418, "name": "Chicken Barbeque Dry", "desc": "Smoky barbeque-style chicken with a tangy glaze.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-barbeque-dry.jpg", "available": true },
+        { "id": 3419, "name": "Chicken Red Chilly Pepper Dry", "desc": "Fiery chicken cooked with red chillies and black pepper.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-red-chilly-pepper.jpg", "available": true },
+        { "id": 3420, "name": "Chicken Thai Pepper Dry", "desc": "Chicken stir-fried with peppers and Thai spices.", "price": 385, "veg": false, "image": "images/chicken-starters/chicken-thai-pepper.jpg", "available": true },
+        { "id": 3421, "name": "Crispy Ginger Chicken", "desc": "Golden fried chicken infused with fresh ginger flavour.", "price": 385, "veg": false, "image": "images/chicken-starters/crispy-ginger-chicken.jpg", "available": true },
+        { "id": 3422, "name": "Sizzling Chicken Dry", "desc": "Hot and sizzling chicken tossed with bold oriental spices.", "price": 385, "veg": false, "image": "images/chicken-starters/sizzling-chicken.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🐟 FISH STARTERS",
+      "items": [
+        { "id": 3601, "name": "Fish 5 Spice Dry", "desc": "Tender fish fillets tossed with aromatic five-spice seasoning.", "price": 435, "veg": false, "image": "images/fish-starters/fish-5-spice.jpg", "available": true },
+        { "id": 3602, "name": "Fish Black Pepper Dry", "desc": "Fish stir-fried with a bold and peppery sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-black-pepper.jpg", "available": true },
+        { "id": 3603, "name": "Fish Chilly Basil Dry", "desc": "Crispy fish cooked with fresh basil and red chillies.", "price": 435, "veg": false, "image": "images/fish-starters/fish-chilly-basil.jpg", "available": true },
+        { "id": 3604, "name": "Fish Chilly Dry", "desc": "Golden fried fish tossed in spicy chilli sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-chilly-dry.jpg", "available": true },
+        { "id": 3605, "name": "Fish Dragon Dry", "desc": "Crispy fish tossed in a fiery dragon-style sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-dragon.jpg", "available": true },
+        { "id": 3606, "name": "Fish Dry Garlic Dry", "desc": "Fish fillets infused with garlic and wok-fried to perfection.", "price": 435, "veg": false, "image": "images/fish-starters/fish-dry-garlic.jpg", "available": true },
+        { "id": 3607, "name": "Fish Kung Pao Dry", "desc": "Fish tossed with peanuts, peppers, and Kung Pao spices.", "price": 435, "veg": false, "image": "images/fish-starters/fish-kungpao.jpg", "available": true },
+        { "id": 3608, "name": "Fish Manchurian Dry", "desc": "Crispy fish pieces coated in tangy Manchurian sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-manchurian.jpg", "available": true },
+        { "id": 3609, "name": "Fish Red Pepper Dry", "desc": "Fish fillets cooked with red bell peppers and spices.", "price": 435, "veg": false, "image": "images/fish-starters/fish-red-pepper.jpg", "available": true },
+        { "id": 3610, "name": "Fish Teriyaki Dry", "desc": "Fish glazed in a sweet-savory teriyaki sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-teriyaki.jpg", "available": true },
+        { "id": 3611, "name": "Fish Red Chilly Pepper Dry", "desc": "Fish tossed with red chillies and cracked pepper.", "price": 435, "veg": false, "image": "images/fish-starters/fish-red-chilly-pepper.jpg", "available": true },
+        { "id": 3612, "name": "Fish Red Hot Dry", "desc": "Crispy fish cooked in a fiery red hot sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-red-hot.jpg", "available": true },
+        { "id": 3613, "name": "Fish Thai Pepper Dry", "desc": "Fish fillets tossed with Thai herbs and pepper.", "price": 435, "veg": false, "image": "images/fish-starters/fish-thai-pepper.jpg", "available": true },
+        { "id": 3614, "name": "Pepper Blasted Fish", "desc": "Boldly spiced fish coated with extra black pepper.", "price": 435, "veg": false, "image": "images/fish-starters/pepper-blasted-fish.jpg", "available": true },
+        { "id": 3615, "name": "Stir Fried Fish Black Bean Chilly", "desc": "Fish fillets stir-fried in a black bean and chilli sauce.", "price": 435, "veg": false, "image": "images/fish-starters/fish-black-bean-chilly.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🍚 VEG FRIED RICE",
+      "items": [
+        { "id": 4001, "name": "Crispy Veg Fried Rice", "desc": "Golden fried rice with crunchy vegetables and a savoury twist.", "price": 590, "veg": true, "image": "images/rice/crispy-veg-fried-rice.jpg", "available": true },
+        { "id": 4002, "name": "Mushroom Fried Rice", "desc": "Fluffy rice tossed with tender mushrooms and light seasoning.", "price": 390, "veg": true, "image": "images/rice/mushroom-fried-rice.jpg", "available": true },
+        { "id": 4003, "name": "Paneer Mongolian Pot Rice", "desc": "Layered pot rice with paneer and bold Mongolian-style flavours.", "price": 630, "veg": true, "image": "images/rice/paneer-mongolian-pot.jpg", "available": true },
+        { "id": 4004, "name": "Paneer Pot Rice", "desc": "Slow-cooked pot rice enriched with paneer and oriental spices.", "price": 630, "veg": true, "image": "images/rice/paneer-pot-rice.jpg", "available": true },
+        { "id": 4005, "name": "Veg Burnt Chilly Fried Rice", "desc": "Rice wok-tossed with vegetables and a smoky chilli kick.", "price": 400, "veg": true, "image": "images/rice/veg-burnt-chilly.jpg", "available": true },
+        { "id": 4006, "name": "Veg Burnt Garlic Fried Rice", "desc": "Aromatic rice infused with the rich flavour of burnt garlic.", "price": 380, "veg": true, "image": "images/rice/veg-burnt-garlic.jpg", "available": true },
+        { "id": 4007, "name": "Veg Fortune Fried Rice", "desc": "House-special fried rice with a touch of premium seasoning.", "price": 590, "veg": true, "image": "images/rice/veg-fortune.jpg", "available": true },
+        { "id": 4008, "name": "Veg Fried Rice", "desc": "Light and fluffy rice stir-fried with mixed vegetables.", "price": 355, "veg": true, "image": "images/rice/veg-fried-rice.jpg", "available": true },
+        { "id": 4009, "name": "Veg Hong Kong Fried Rice", "desc": "Rice cooked with vegetables in savoury Hong Kong sauce.", "price": 400, "veg": true, "image": "images/rice/veg-hong-kong.jpg", "available": true },
+        { "id": 4010, "name": "Veg Mongolian Pot Rice", "desc": "Layered pot rice slow-cooked with Mongolian spices and veggies.", "price": 590, "veg": true, "image": "images/rice/veg-mongolian-pot.jpg", "available": true },
+        { "id": 4011, "name": "Veg Nanking Rice", "desc": "Fragrant rice stir-fried with vegetables in oriental style.", "price": 590, "veg": true, "image": "images/rice/veg-nanking.jpg", "available": true },
+        { "id": 4012, "name": "Veg Peking Fried Rice", "desc": "Rice tossed with vegetables in a mildly spiced Peking sauce.", "price": 590, "veg": true, "image": "images/rice/veg-peking.jpg", "available": true },
+        { "id": 4013, "name": "Veg Pot Rice", "desc": "Traditional slow-cooked pot rice with assorted vegetables.", "price": 590, "veg": true, "image": "images/rice/veg-pot-rice.jpg", "available": true },
+        { "id": 4014, "name": "Veg Schezwan Fried Rice", "desc": "Fiery Schezwan-style rice with bold chilli and garlic flavours.", "price": 380, "veg": true, "image": "images/rice/veg-schezwan.jpg", "available": true },
+        { "id": 4015, "name": "Veg Stewed Fried Rice", "desc": "Rice cooked with vegetables in a rich, slow-simmered broth.", "price": 590, "veg": true, "image": "images/rice/veg-stewed.jpg", "available": true },
+        { "id": 4016, "name": "Veg Singaporean Fried Rice", "desc": "Fragrant fried rice with vegetables and Singaporean curry spice.", "price": 400, "veg": true, "image": "images/rice/veg-singaporean.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🍗 CHICKEN FRIED RICE",
+      "items": [
+        { "id": 4101, "name": "Chicken Burnt Chilly Fried Rice", "desc": "Fried rice tossed with chicken and a smoky red chilli punch.", "price": 410, "veg": false, "image": "images/rice/chicken-burnt-chilly.jpg", "available": true },
+        { "id": 4102, "name": "Chicken Burnt Garlic Fried Rice", "desc": "Aromatic rice with chicken, enriched by the flavour of burnt garlic.", "price": 395, "veg": false, "image": "images/rice/chicken-burnt-garlic.jpg", "available": true },
+        { "id": 4103, "name": "Chicken Chopper Rice", "desc": "A wholesome bowl of fried rice topped with shredded chicken.", "price": 620, "veg": false, "image": "images/rice/chicken-chopper.jpg", "available": true },
+        { "id": 4104, "name": "Chicken Fortune Rice", "desc": "Special house-style chicken fried rice with premium spices.", "price": 620, "veg": false, "image": "images/rice/chicken-fortune.jpg", "available": true },
+        { "id": 4105, "name": "Chicken Fried Rice", "desc": "Classic wok-tossed rice with tender chicken pieces.", "price": 380, "veg": false, "image": "images/rice/chicken-fried-rice.jpg", "available": true },
+        { "id": 4106, "name": "Chicken Hong Kong Fried Rice", "desc": "Rice stir-fried with chicken in a savoury Hong Kong-style sauce.", "price": 410, "veg": false, "image": "images/rice/chicken-hong-kong.jpg", "available": true },
+        { "id": 4107, "name": "Chicken Mongolian Pot Rice", "desc": "Layered pot rice with chicken, slow-cooked in Mongolian spices.", "price": 620, "veg": false, "image": "images/rice/chicken-mongolian-pot.jpg", "available": true },
+        { "id": 4108, "name": "Chicken Nanking Fried Rice", "desc": "Chicken fried rice infused with fragrant oriental seasoning.", "price": 620, "veg": false, "image": "images/rice/chicken-nanking.jpg", "available": true },
+        { "id": 4109, "name": "Chicken Peking Fried Rice", "desc": "Fried rice with chicken and a mildly spiced Peking sauce.", "price": 620, "veg": false, "image": "images/rice/chicken-peking.jpg", "available": true },
+        { "id": 4110, "name": "Chicken Pot Rice", "desc": "Slow-cooked chicken pot rice with subtle oriental flavours.", "price": 620, "veg": false, "image": "images/rice/chicken-pot.jpg", "available": true },
+        { "id": 4111, "name": "Chicken Schezwan Rice", "desc": "Fiery chicken fried rice bursting with Schezwan chilli and garlic.", "price": 395, "veg": false, "image": "images/rice/chicken-schezwan.jpg", "available": true },
+        { "id": 4112, "name": "Chicken Stewed Rice", "desc": "Chicken rice simmered gently in a rich broth for deep flavour.", "price": 620, "veg": false, "image": "images/rice/chicken-stewed.jpg", "available": true },
+        { "id": 4113, "name": "Chicken Thai Pot Rice", "desc": "Layered pot rice with chicken, infused with Thai herbs and spices.", "price": 620, "veg": false, "image": "images/rice/chicken-thai-pot.jpg", "available": true },
+        { "id": 4114, "name": "Crispy Chicken Fried Rice", "desc": "Golden fried rice topped with crispy chicken bites.", "price": 620, "veg": false, "image": "images/rice/crispy-chicken-fried-rice.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🥦 VEG MAIN COURSE GRAVY",
+      "items": [
+        { "id": 5001, "name": "Buddha’s Delight", "desc": "A wholesome medley of fresh vegetables simmered in a light, savoury sauce.", "price": 375, "veg": true, "image": "images/veg-gravy/buddhas-delight.jpg", "available": true },
+        { "id": 5002, "name": "Crispy Vegetables in Manchurian Sauce", "desc": "Crisp fried vegetables coated in a zesty Manchurian gravy.", "price": 345, "veg": true, "image": "images/veg-gravy/crispy-veg-manchurian.jpg", "available": true },
+        { "id": 5003, "name": "Crispy Vegetables in Schezwan Sauce", "desc": "Crispy vegetables tossed in a fiery Schezwan chilli sauce.", "price": 345, "veg": true, "image": "images/veg-gravy/crispy-veg-schezwan.jpg", "available": true },
+        { "id": 5004, "name": "Exotic Vegetables in Black Pepper Sauce", "desc": "A mix of exotic vegetables cooked in a sharp black pepper gravy.", "price": 375, "veg": true, "image": "images/veg-gravy/exotic-veg-black-pepper.jpg", "available": true },
+        { "id": 5005, "name": "Mushroom in Green Garlic Sauce", "desc": "Tender mushrooms simmered in a fragrant green garlic sauce.", "price": 345, "veg": true, "image": "images/veg-gravy/mushroom-green-garlic.jpg", "available": true },
+        { "id": 5006, "name": "Paneer Black Bean Chilly Sauce", "desc": "Paneer cubes in a bold black bean and chilli-infused gravy.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-black-bean-chilly.jpg", "available": true },
+        { "id": 5007, "name": "Paneer Hunan Sauce", "desc": "Paneer prepared in a spicy and savoury Hunan-style sauce.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-hunan.jpg", "available": true },
+        { "id": 5008, "name": "Paneer Sapo Sauce", "desc": "Soft paneer simmered in a rich and hearty Sapo-style gravy.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-sapo.jpg", "available": true },
+        { "id": 5009, "name": "Paneer Schezwan Sauce", "desc": "Paneer cubes coated in a fiery Schezwan chilli and garlic sauce.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-schezwan.jpg", "available": true },
+        { "id": 5010, "name": "Paneer Soya Chilly Garlic Sauce", "desc": "Paneer tossed with soy sauce, garlic, and fresh green chillies.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-soya-chilly-garlic.jpg", "available": true },
+        { "id": 5011, "name": "Paneer with Cashewnuts Sauce", "desc": "Paneer cooked in a creamy, nutty gravy with roasted cashewnuts.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-cashewnut.jpg", "available": true },
+        { "id": 5012, "name": "Veg Thai Curry", "desc": "Exotic vegetables slow-cooked in a rich Thai coconut curry.", "price": 345, "veg": true, "image": "images/veg-gravy/veg-thai-curry.jpg", "available": true },
+        { "id": 5013, "name": "Exotic Hot Wok (Choice of Sauce)", "desc": "A medley of vegetables prepared in your choice of oriental sauce.", "price": 375, "veg": true, "image": "images/veg-gravy/exotic-hot-wok.jpg", "available": true },
+        { "id": 5014, "name": "Exotic Vegetables in Mongolian Sauce", "desc": "Stir-fried exotic vegetables in a hearty Mongolian-style gravy.", "price": 375, "veg": true, "image": "images/veg-gravy/exotic-veg-mongolian.jpg", "available": true },
+        { "id": 5015, "name": "Paneer Burnt Chilly Sauce", "desc": "Paneer tossed in a smoky, spicy burnt chilli sauce.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-burnt-chilly.jpg", "available": true },
+        { "id": 5016, "name": "Paneer Mongolian Sauce", "desc": "Paneer cubes cooked in a bold Mongolian-style gravy.", "price": 375, "veg": true, "image": "images/veg-gravy/paneer-mongolian.jpg", "available": true },
+        { "id": 5017, "name": "Soho Vegetables", "desc": "A house-special preparation of vegetables in oriental-style sauce.", "price": 375, "veg": true, "image": "images/veg-gravy/soho-vegetables.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🍗 CHICKEN MAIN COURSE GRAVY",
+      "items": [
+        { "id": 5201, "name": "Burnt Chicken on Hot Wok", "desc": "Smoky wok-seared chicken served in a sizzling, flavourful sauce.", "price": 390, "veg": false, "image": "images/chicken-gravy/burnt-chicken-hot-wok.jpg", "available": true },
+        { "id": 5202, "name": "Chicken Hunan Sauce", "desc": "Tender chicken cooked in a bold and spicy Hunan-style gravy.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-hunan.jpg", "available": true },
+        { "id": 5203, "name": "Chicken in 5 Spice Sauce", "desc": "Chicken simmered in a fragrant oriental five-spice blend.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-5-spice.jpg", "available": true },
+        { "id": 5204, "name": "Chicken in Black Bean Sauce", "desc": "Juicy chicken tossed in a savoury black bean gravy.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-black-bean.jpg", "available": true },
+        { "id": 5205, "name": "Chicken in Black Pepper Sauce", "desc": "Chicken cooked with a sharp black pepper sauce for a fiery kick.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-black-pepper.jpg", "available": true },
+        { "id": 5206, "name": "Chicken in Chilly Oyster Sauce", "desc": "Chicken in a tangy oyster-based gravy with a chilli edge.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-chilly-oyster.jpg", "available": true },
+        { "id": 5207, "name": "Chicken in Kung Pao Sauce", "desc": "Classic Kung Pao chicken with peanuts, peppers, and chillies.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-kungpao.jpg", "available": true },
+        { "id": 5208, "name": "Chicken in Manchurian Sauce", "desc": "Tender chicken in a tangy soy and garlic Manchurian gravy.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-manchurian.jpg", "available": true },
+        { "id": 5209, "name": "Chicken in Mongolian Sauce", "desc": "Chicken stir-fried with vegetables in a hearty Mongolian-style sauce.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-mongolian.jpg", "available": true },
+        { "id": 5210, "name": "Chicken in Sapo Sauce", "desc": "Juicy chicken simmered in a rich and savoury Sapo-style gravy.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-sapo.jpg", "available": true },
+        { "id": 5211, "name": "Chicken in Schezwan Sauce", "desc": "Fiery chicken gravy bursting with Schezwan chilli and garlic.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-schezwan.jpg", "available": true },
+        { "id": 5212, "name": "Chicken in Soho Sauce", "desc": "A signature chicken preparation in a house-special oriental sauce.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-soho.jpg", "available": true },
+        { "id": 5213, "name": "Chicken in Wooly Sauce", "desc": "Unique chicken dish in a mildly spiced oriental gravy.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-wooly.jpg", "available": true },
+        { "id": 5214, "name": "Chicken with Cashewnuts Sauce", "desc": "Chicken cooked in a creamy, nutty gravy with roasted cashewnuts.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-cashewnut.jpg", "available": true },
+        { "id": 5215, "name": "Shredded Chicken with Red and Green Chillies", "desc": "Thin shreds of chicken tossed with fresh red and green chillies.", "price": 390, "veg": false, "image": "images/chicken-gravy/shredded-chicken-chillies.jpg", "available": true },
+        { "id": 5216, "name": "Chicken in Burnt Chilly Sauce", "desc": "Chicken prepared in a smoky and spicy burnt chilli sauce.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-burnt-chilly.jpg", "available": true },
+        { "id": 5217, "name": "Chicken in Hong Kong Sauce", "desc": "Chicken simmered in a sweet-savoury Hong Kong-style gravy.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-hong-kong.jpg", "available": true },
+        { "id": 5218, "name": "Chicken in Korean Sauce", "desc": "Chicken cooked with sesame, soy, and Korean spices.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-korean.jpg", "available": true },
+        { "id": 5219, "name": "Chicken in Red Cooked Sauce", "desc": "Slow-cooked chicken in a rich, red-hued oriental sauce.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-red-cooked.jpg", "available": true },
+        { "id": 5220, "name": "Chicken in Red Hot Dragon Sauce", "desc": "Fiery chicken tossed in a bold, dragon-style chilli sauce.", "price": 390, "veg": false, "image": "images/chicken-gravy/chicken-red-hot-dragon.jpg", "available": true }
+      ]
+    },
+
+    {
+      "title": "🐟 FISH MAIN COURSE GRAVY",
+      "items": [
+        { "id": 5401, "name": "Fish in Black Bean Sauce", "desc": "Tender fish fillets simmered in a bold black bean gravy.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-black-bean.jpg", "available": true },
+        { "id": 5402, "name": "Fish in Chilly Oyster Sauce", "desc": "Fish cooked in a tangy oyster sauce with a chilli twist.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-chilly-oyster.jpg", "available": true },
+        { "id": 5403, "name": "Fish in Green Garlic Sauce", "desc": "Fish fillets in a fragrant green garlic and herb sauce.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-green-garlic.jpg", "available": true },
+        { "id": 5404, "name": "Fish in Hunan Sauce", "desc": "Fish tossed in a spicy and savoury Hunan-style gravy.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-hunan.jpg", "available": true },
+        { "id": 5405, "name": "Fish in Manchurian Sauce", "desc": "Crispy fish pieces coated in a zesty Manchurian gravy.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-manchurian.jpg", "available": true },
+        { "id": 5406, "name": "Fish in Sapo Sauce", "desc": "Fish simmered in a rich and savoury Sapo-style sauce.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-sapo.jpg", "available": true },
+        { "id": 5407, "name": "Fish in Schezwan Sauce", "desc": "Fiery fish preparation with bold Schezwan chilli and garlic.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-schezwan.jpg", "available": true },
+        { "id": 5408, "name": "Fish in Soya Chilly Garlic Sauce", "desc": "Fish fillets tossed with soy sauce, garlic, and green chillies.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-soya-chilly-garlic.jpg", "available": true },
+        { "id": 5409, "name": "Fish Thai Curry", "desc": "Fish cooked in creamy coconut milk with authentic Thai spices.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-thai-curry.jpg", "available": true },
+        { "id": 5410, "name": "Fish in Burnt Chilly Sauce", "desc": "Fish fillets tossed in a smoky, spicy burnt chilli gravy.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-burnt-chilly.jpg", "available": true },
+        { "id": 5411, "name": "Fish in Hong Kong Sauce", "desc": "Fish cooked in a sweet-savoury Hong Kong-style sauce.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-hong-kong.jpg", "available": true },
+        { "id": 5412, "name": "Fish in Red Cooked Sauce", "desc": "Fish slow-cooked in a rich and flavourful red gravy.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-red-cooked.jpg", "available": true },
+        { "id": 5413, "name": "Fish in Shanghai Sauce", "desc": "Fish fillets in a mildly spiced, savoury Shanghai-style sauce.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-shanghai.jpg", "available": true },
+        { "id": 5414, "name": "Fish in Soho Sauce", "desc": "Signature fish dish prepared in a house-special oriental sauce.", "price": 440, "veg": false, "image": "images/fish-gravy/fish-soho.jpg", "available": true }
+      ]
+    }
+  ]
+}
