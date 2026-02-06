@@ -174,7 +174,7 @@ function scheduleNextStoreRefresh() {
   const gst = Math.round(afterDiscount * (gstPercent / 100));
   const total = afterDiscount + gst; // base total before delivery fee
 
-  // ✅ Delivery Fee Rule: ₹50 only when Delivery AND total < 200
+  // ✅ Delivery Fee Rule: ₹50 only when Delivery AND total < 500
   let deliveryFee = 0;
   if (STATE.orderType === "delivery" && total < 500) {
     deliveryFee = 50;
@@ -758,7 +758,7 @@ function normalizeOfferRules() {
 
     const tip = qs("#delivery-tip");
 if (tip) {
-  if (count > 0 && STATE.orderType === "delivery" && bill.total < 200) {
+  if (count > 0 && STATE.orderType === "delivery" && bill.total < 500) {
     tip.textContent = `➕ Add ₹${500 - bill.total} to get delivery free on ₹500+ orders.`;
   } else {
     tip.textContent = "";
