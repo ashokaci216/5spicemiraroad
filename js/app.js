@@ -759,7 +759,7 @@ function normalizeOfferRules() {
     const tip = qs("#delivery-tip");
 if (tip) {
   if (count > 0 && STATE.orderType === "delivery" && bill.total < 200) {
-    tip.textContent = `➕ Add ₹${200 - bill.total} to get delivery free on ₹200+ orders.`;
+    tip.textContent = `➕ Add ₹${500 - bill.total} to get delivery free on ₹500+ orders.`;
   } else {
     tip.textContent = "";
   }
@@ -906,31 +906,48 @@ function saveOrderToSheet(order) {
     saveCart();
 
     // Buttons: Call / Directions
-    const goReserveTable = () => {
-      document.getElementById("book")?.scrollIntoView({ behavior: "smooth" });
-    };
+const goReserveTable = () => {
+  document.getElementById("book")?.scrollIntoView({ behavior: "smooth" });
+};
 
-    const goOffers = () => {
-     document.getElementById("offers")?.scrollIntoView({ behavior: "smooth" });
-    };
+const goOffers = () => {
+  document.getElementById("offers")?.scrollIntoView({ behavior: "smooth" });
+};
 
+const callNumber = STATE.menu?.contact?.phone || "+919326510688";
+const directionsUrl = STATE.menu?.contact?.directionsUrl || "https://maps.app.goo.gl/";
 
-    const callNumber = STATE.menu?.contact?.phone || "+919326510688";
-    const directionsUrl = STATE.menu?.contact?.directionsUrl || "https://maps.app.goo.gl/";
+const goCall = () => { window.location.href = "tel:" + callNumber; };
+const goDirections = () => { window.open(directionsUrl, "_blank"); };
 
-    const goCall = () => { window.location.href = "tel:" + callNumber; };
-    const goDirections = () => { window.open(directionsUrl, "_blank"); };
+qs("#btn-call")?.addEventListener("click", goReserveTable);
+qs("#btn-directions")?.addEventListener("click", goOffers);
+qs("#btn-call-contact")?.addEventListener("click", goCall);
+qs("#btn-directions-contact")?.addEventListener("click", goDirections);
 
-    qs("#btn-call")?.addEventListener("click", goReserveTable);
-    qs("#btn-directions")?.addEventListener("click", goOffers);
-    qs("#btn-call-contact")?.addEventListener("click", goCall);
-    qs("#btn-directions-contact")?.addEventListener("click", goDirections);
+const reviewsUrl =
+  STATE.menu?.contact?.reviewsUrl || "https://g.page/r/CT-4s4RCuaIiEBM/review";
 
-    // WhatsApp buttons
-    const goWhatsApp = (text) => window.open(buildWhatsAppUrl(text), "_blank");
-    qs("#btn-whatsapp-top")?.addEventListener("click", () => goWhatsApp("Hello! I want to enquire about Lotus & Fire."));
-    qs("#btn-whatsapp-contact")?.addEventListener("click", () => goWhatsApp("Hello! I want to enquire about Lotus & Fire."));
-   function goWhatsAppOrder(orderText) {
+const goReviews = () => {
+  if (reviewsUrl) window.open(reviewsUrl, "_blank");
+};
+
+qs("#btn-reviews-contact")?.addEventListener("click", goReviews);
+
+// WhatsApp buttons
+const goWhatsApp = (text) => window.open(buildWhatsAppUrl(text), "_blank");
+
+// ✅ Header WhatsApp (kept) — message updated
+qs("#btn-whatsapp-top")?.addEventListener("click", () =>
+  goWhatsApp("Hello! I want to enquire about 5Spice - Mira Road.")
+);
+
+// ❌ Contact WhatsApp removed (because button removed from contact section)
+// qs("#btn-whatsapp-contact")?.addEventListener("click", () =>
+//   goWhatsApp("Hello! I want to enquire about 5Spice - Mira Road.")
+// );
+
+function goWhatsAppOrder(orderText) {
 
   // ✅ 0) Save order to Google Sheet (silent)
   const bill = typeof computeBill === "function" ? computeBill() : {};

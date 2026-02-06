@@ -1,4 +1,4 @@
-const CACHE_NAME = "5spice-miraroad-v2"; // ✅ bump this on every release
+const CACHE_NAME = "5spice-miraroad-v3"; // ✅ bump this on every release
 
 const ASSETS = [
   "./",

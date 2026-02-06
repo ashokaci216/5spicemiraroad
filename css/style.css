@@ -288,16 +288,31 @@ h3{font-size:16px}
   border-radius:14px;
   cursor:pointer;
 }
+
 .btn.primary{
   border-color:rgba(201,162,39,0.40);
   background:rgba(201,162,39,0.16);
 }
-.btn.full{width:100%}
-.btnrow{display:flex;gap:10px;flex-wrap:wrap}
 
-button:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
+.btn.full{
+  width:100%;
+}
+
+/* Button row – aligned & spaced */
+.btnrow{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+/* Optional: equal width buttons (recommended) */
+.btnrow .btn{
+  flex:1;
+}
+
+button:disabled{
+  opacity:0.45;
+  cursor:not-allowed;
 }
 
 /* Cards */

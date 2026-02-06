@@ -2,9 +2,10 @@
   "restaurant": "5Spice - Mira Road",
   "currency": "INR",
   "contact": {
-    "phone": "+919867378209",
+    "phone": "+919930906279",
     "whatsapp": "+919867378209",
-    "directionsUrl": "https://share.google/BNks05vJjLSzFKhOe"
+    "directionsUrl": "https://share.google/whwvWo1G53ODaFmoB",
+    "reviewsUrl": "https://g.page/r/CT-4s4RCuaIiEBM/review"
   },
   "tax": {
     "gstPercent": 5,
@@ -39,7 +40,7 @@
         "veg": false,
         "image": "images/chicken-starters/chicken-lollipop.jpg",
         "originalPrice": 385,
-        "offerPrice": 239
+        "offerPrice": 270
       }
     ]
   },
