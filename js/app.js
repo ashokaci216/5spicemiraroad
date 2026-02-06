@@ -1,5 +1,5 @@
 /* ================================
-   Lotus & Fire — Frontend Only App
+   5spice — Frontend Only App
 ================================== */
 
 (function () {
@@ -19,7 +19,7 @@
   function qsa(sel) { return Array.from(document.querySelectorAll(sel)); }
 
   // ==============================
-// ✅ Store Hours (Lotus & Fire)
+// ✅ Store Hours (5spice)
 // Lunch: 12:00 PM – 3:30 PM
 // Dinner: 7:00 PM – 12:00 AM
 // ==============================
@@ -806,14 +806,13 @@ if (count === 0) {
 
 // ✅ ADD THIS HERE
 const SHEET_WEBAPP_URL =
-  "https://script.google.com/macros/s/AKfycbyK6vNlgh8KYsw0ux4kolN3iwek2FW3NKcbyn9GkNPt-H0SKvg8bIrVyigEuaoX4wr2/exec";
+  "https://script.google.com/macros/s/AKfycbzww6zG3mLLjijcYC2a3tbyZfYlAO_qDzffg5mSzaIOFUnEX6aH35Nk5MIqTE2ve5Mi/exec";
 
 
 function saveOrderToSheet(order) {
   fetch(SHEET_WEBAPP_URL, {
     method: "POST",
-    mode: "no-cors",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
     body: JSON.stringify(order),
   });
 }
@@ -830,7 +829,7 @@ function saveOrderToSheet(order) {
   const items = Object.values(STATE.cart);
 
   const lines = [];
-  lines.push("🍽️ *Lotus & Fire – Website Order*");
+  lines.push("🍽️ *5spice – Website Order*");
   lines.push("Order Type: *" + String(STATE.orderType || "").toUpperCase() + "*");
   lines.push("");
 
@@ -886,7 +885,7 @@ function saveOrderToSheet(order) {
     const note = qs("#bk-note")?.value?.trim() || "";
 
     const lines = [];
-    lines.push("🍽️ *Lotus & Fire – Table Booking (Website)*");
+    lines.push("🍽️ *5spice – Table Booking (Website)*");
     lines.push("Name: " + name);
     lines.push("Phone: " + phone);
     lines.push("Date: " + date);
